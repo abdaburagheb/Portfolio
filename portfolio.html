@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adam Ragheb | Portfolio</title>
+    <meta name="description" content="front-end developer and Graphic Designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="myStyles.css" type="text/css" media="screen">
+</head>
+
+<body>
+    <main class="main__container">
+        <nav>
+            <div class="main-nav">
+                <a href="#aboutMe" class="scroll active">About Me</a>
+                <a href="#skills" class="scroll">Skills</a>
+                <a href="#gallery" class="scroll">Gallery</a>
+                <a href="#contactMe" class="scroll">Contact Me</a>
+            </div>
+            
+            <div class="logo">
+                <svg id="Layer_1" data-name="Layer 1" width="35" height="35" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                    <path d="M17.5,0A17.5,17.5,0,1,0,35,17.5,17.52,17.52,0,0,0,17.5,0Zm16,17.5a15.86,15.86,0,0,1-2.28,8.19c-.28-.32-.64-.35-1.18-.17a14,14,0,0,1-3.87.93c-2.62.09-4.13-1.35-4.23-3.74-.06-1.39-.31-1.32,1.25-1.27.42,0,.84,0,1.26.08,1.25.13,2.5.28,3.75.38.24,0,.67-.09.72-.23a.88.88,0,0,0-.17-.8,3.09,3.09,0,0,0-1.33-.54c-1.75-.2-3.51-.32-5.34-.48a4.84,4.84,0,0,1,0-.63c.07-.36.16-.71.26-1.06a34.79,34.79,0,0,1,4.57-9.22c.59-.92,1.17-1.85,1.69-2.81l0-.07A15.93,15.93,0,0,1,33.49,17.5ZM20.41,19.84,10,20.21A68.38,68.38,0,0,1,26.74,5.94C24.15,10.37,21.1,14.56,20.41,19.84ZM17.5,1.51a15.89,15.89,0,0,1,9,2.75A20.36,20.36,0,0,0,24,5.68,74.38,74.38,0,0,0,8.1,20.09a1.67,1.67,0,0,1-1,.51c-1.7.28-3.42.48-5.13.76A15.92,15.92,0,0,1,17.5,1.51ZM4.63,26.95a15.94,15.94,0,0,1-2.18-4.11,2.49,2.49,0,0,0,.29,0c1.21-.15,2.42-.36,3.75-.57a20.26,20.26,0,0,0-1,2.06C5.13,25.18,4.87,26.06,4.63,26.95ZM17.5,33.49a15.93,15.93,0,0,1-11.67-5.1,1.35,1.35,0,0,0,.21-.7A13.51,13.51,0,0,1,8.15,22.8a1.71,1.71,0,0,1,1.57-.89c2.1-.11,4.19-.3,6.28-.39,1.42-.06,2.84,0,4.27,0L20.44,23a5.69,5.69,0,0,0,4.23,4.81,9,9,0,0,0,5.4-.42A16,16,0,0,1,17.5,33.49Z" style="fill:#FFf1CE"/>
+                </svg>
+            </div>
+        </nav>
+        <div class="mainPage" id="aboutMe">
+            <div class="wrap-helpper">
+                <div class="hero__title">
+                    <div class="title__wrap">
+                        <h1><span class="hero-title">Adam Ragheb</span></h1>
+                        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__container">
+                <div class="hero__img"></div>
+            </div>
+        </div>
+        <!-- End of page 1 I-->
+
+        <div class="mainPage" id="skills">
+
+            <div class="content">
+                <div class="content__title">
+                    <h1 class="title">Skills</h1>
+                </div>
+
+                <div class="page">
+                    <div class="main-container">
+                        <div class="skillbar js-skillbar">
+                            <span class="skillbar__value js-skillbar__value">100%</span>
+
+                            <svg class="skillbar__progress"><circle  class="skillbar__progress-circle skillbar__progress-bar" cx="50%" cy="50%" r="40%" stroke-width="var(--skillBarStrokeWidth)" stroke="var(--skillBarColor)" fill="none"></circle><circle class="skillbar__progress-circle skillbar__progress-value js-skillbar__progress-value" cx="50%" cy="50%" r="40%" stroke-width="var(--skillBarStrokeWidth)" stroke="var(--skillBarColor)" stroke-linejoin="round" stroke-linecap="round" fill="none"></circle>
+                            </svg>
+                        </div>
+
+                        <div class="controls">
+                            <div class="controls__params">
+
+                                <div class="controls__group">
+                                    <input type="radio" id="v1" name="values" class="controls__switch  js-switch" data-skill-bar-color="#4285f4" data-skill-bar-value="100" checked>
+                                    <label for="v1" class="controls__param">HTML&nbsp;&amp;&nbsp;CSS</label>
+                                </div>
+
+                                <div class="controls__group">
+                                    <input type="radio" id="v2" name="values" class="controls__switch js-switch" data-skill-bar-color="#B31583" data-skill-bar-value="35">
+                                    <label for="v2" class="controls__param">JavaScript&nbsp;&amp;&nbsp;jQuery</label>
+                                </div>
+
+                                <div class="controls__group">
+                                    <input type="radio" id="v3" name="values" class="controls__switch js-switch" data-skill-bar-color="#FFC600" data-skill-bar-value="70">
+                                    <label for="v3" class="controls__param">UI&nbsp;&amp;&nbsp;UX</label>
+                                </div>
+
+                                <div class="controls__group">
+                                    <input type="radio" id="v5" name="values" class="controls__switch js-switch" data-skill-bar-color="#E41B2E" data-skill-bar-value="80">
+                                    <label for="v5" class="controls__param">Testing&nbsp;&amp;&nbsp;Debugging</label>
+                                </div>
+
+                                <div class="controls__group">
+                                    <input type="radio" id="v6" name="values" class="controls__switch js-switch" data-skill-bar-color="#74D419" data-skill-bar-value="100">
+                                    <label for="v6" class="controls__param">Print Design</label>
+                                </div>
+                                
+                                <div class="controls__group">
+                                    <input type="radio" id="v4" name="values" class="controls__switch js-switch" data-skill-bar-color="#06b9ae" data-skill-bar-value="100">
+                                    <label for="v4" class="controls__param">Adobe&nbsp;Creative&nbsp;Suite</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">Competitive team player who consistently strives to positively contribute to overall team performance and the achievement of web coding and UI/UX design objectives. Skilled in translating subject matter into concrete designs for a wide range of marketing, promotional, and informational materials with broad and deep knowledge of HTML, CSS, and CMS.</div>
+            </div>
+
+        </div>
+        <!-- End of page 2 II -->
+
+        <div class="mainPage" id="gallery">
+            <div class="content">
+                <div class="content__title">
+                    <h1 class="title">Gallery</h1>
+                </div>
+                <div class="page">
+                    <div class="gallery__wrapper">
+                        
+                        <input type="checkbox" id="pic-1" />
+                        <label for="pic-1" class="lightbox"><img src="images/business-card-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-2" />
+                        <label for="pic-2" class="lightbox"><img src="images/photography-cover-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-3" />
+                        <label for="pic-3" class="lightbox"><img src="images/adam-website-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-4" />
+                        <label for="pic-4" class="lightbox"><img src="images/magazine-design-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-5" />
+                        <label for="pic-5" class="lightbox"><img src="images/reesha-websited-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-6" />
+                        <label for="pic-6" class="lightbox"><img src="images/signs-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-7" />
+                        <label for="pic-7" class="lightbox"><img src="images/signs-cover-2-large.jpg"/></label>
+
+                        <input type="checkbox" id="pic-8" />
+                        <label for="pic-8" class="lightbox"><img src="images/photography-cover-2-large.jpg"/></label>
+
+                        <div class="grid">
+                            <label for="pic-1" class="grid-item"><img src="images/business-card.jpg"/></label>
+
+                            <label for="pic-2" class="grid-item"><img src="images/photography-cover.jpg"/></label>
+
+                            <label for="pic-3" class="grid-item"><img src="images/adam-website.jpg"/></label>
+
+                            <label for="pic-4" class="grid-item"><img src="images/magazine-design.jpg"/></label>
+
+                            <label for="pic-5" class="grid-item"><img src="images/reesha-website.jpg"/></label>
+
+                            <label for="pic-6" class="grid-item"><img src="images/signs-cover.jpg"/></label>
+
+                            <label for="pic-7" class="grid-item"><img src="images/signs-cover-2.jpg"/></label>
+
+                            <label for="pic-8" class="grid-item"><img src="images/photography-cover-2.jpg"/></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of page 3 III-->
+
+        <div class="mainPage" id="contactMe">
+            <div class="content">
+
+                <div class="title-wrap">
+                    <h1 class="title after__contact">Contact Me</h1>
+                </div>
+                <div class="page">
+                    <div class="contact__page">
+                        <form method="post" action="contactengine.php">
+                            <!--<label for="Name">Name:</label>-->
+                            <input type="text" name="Name" id="Name" for="name" placeholder="Name" />
+
+                            <!--<label for="Email">Email:</label>-->
+                            <input type="text" name="Email" id="Email" for="Email" placeholder="Email" />
+
+                            <!--<label for="Message">Message:</label><br />-->
+                            <textarea name="Message" rows="10" cols="20" id="Message" placeholder="Message"></textarea>
+
+                            <input type="submit" name="submit" value="Send" class="submit-button" />
+                        </form>
+                    </div>
+                    <div class="social__media">
+                        <div class="media__icon"><a href="http://www.linkedin.com/in/adamragheb" target="_blank"><svg height="40px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="40px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#926801;"/></svg></a></div>
+                        <div class="media__icon"><a href="http://github.com/adamragheb" target="_blank"><svg height="40px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="40px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M20.543,34.568c-0.054,0,0.592,1.367,0.61,1.367  c1.41,2.516,4.128,4.08,8.713,4.514c-0.654,0.488-1.44,1.414-1.549,2.484c-0.823,0.523-2.478,0.696-3.764,0.297  c-1.803-0.559-2.493-4.066-5.192-3.566c-0.584,0.107-0.468,0.486,0.037,0.809c0.823,0.523,1.597,1.178,2.194,2.571  c0.459,1.07,1.423,2.981,4.473,2.981c1.21,0,2.058-0.143,2.058-0.143s0.023,2.731,0.023,3.793c0,1.225-1.682,1.57-1.682,2.159  c0,0.233,0.557,0.255,1.004,0.255c0.884,0,2.723-0.725,2.723-1.998c0-1.011,0.017-4.41,0.017-5.006c0-1.3,0.709-1.712,0.709-1.712  s0.088,6.94-0.169,7.872c-0.302,1.094-0.847,0.939-0.847,1.427c0,0.726,2.214,0.179,2.948-1.416c0.567-1.239,0.319-8.05,0.319-8.05  l0.605-0.012c0,0,0.034,3.117,0.013,4.542c-0.021,1.476-0.123,3.342,0.769,4.222c0.586,0.579,2.484,1.594,2.484,0.666  c0-0.539-1.04-0.982-1.04-2.441v-6.715c0.831,0,0.706,2.208,0.706,2.208l0.061,4.103c0,0-0.184,1.494,1.645,2.119  c0.645,0.223,2.025,0.283,2.09-0.09c0.065-0.373-1.662-0.928-1.678-2.084c-0.01-0.707,0.032-1.119,0.032-4.187  c0-3.068-0.419-4.202-1.88-5.106c4.508-0.455,7.299-1.551,8.658-4.486c0.106,0.003,0.555-1.371,0.496-1.371  c0.305-1.108,0.47-2.419,0.502-3.971c-0.008-4.21-2.058-5.699-2.451-6.398c0.58-3.187-0.098-4.637-0.412-5.135  c-1.162-0.406-4.041,1.045-5.615,2.067c-2.564-0.737-7.986-0.666-10.019,0.19c-3.751-2.639-5.736-2.235-5.736-2.235  s-1.283,2.259-0.339,5.565c-1.234,1.546-2.154,2.64-2.154,5.539C19.906,31.83,20.102,33.292,20.543,34.568z M33,64  C16.432,64,3,50.568,3,34C3,17.431,16.432,4,33,4s30,13.431,30,30C63,50.568,49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#926801;"/></svg></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of page 4 IV-->
+
+        <footer>
+            <div>&copy; copyright 2018 | Adam Ragheb</div>
+        </footer>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myJS.js" type="text/javascript"></script>
+
+</body>
+
+</html>
